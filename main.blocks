@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="=_dKGw;9UcpM)Y?u+C?{">mySprite</variable><variable type="KIND_SpriteKind" id="WxH(DJ0N[6*R%2_o+gt=">Player</variable><variable type="KIND_SpriteKind" id="F@n!bY@9)*/zyZ.L:izP">Projectile</variable><variable type="KIND_SpriteKind" id="ti[!9$FRrYuUdUs#WqwT">Food</variable><variable type="KIND_SpriteKind" id="04nKx0nGLdq0Zr;yu}5P">Enemy</variable></variables><block type="pxt-on-start" id="c#S1@Wham!WD4;XWrIKA" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="UOvYx40=Kuw-g^to@9dy"><field name="VAR" id="=_dKGw;9UcpM)Y?u+C?{">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="%i0_g+gJV!!GM{JjaFWe"><value name="img"><shadow type="screen_image_picker" id="C5`lw~GLU(;:qd5n::q@"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 d 4 c . . 
+. . . . b 5 5 1 f f d d 4 4 4 b 
+. . . . b 5 5 d f b 4 4 4 4 b . 
+. . . b d 5 5 5 5 4 4 4 4 b . . 
+. . b d d 5 5 5 5 5 5 5 5 b . . 
+. b d d d d 5 5 5 5 5 5 5 5 b . 
+b d d d b b b 5 5 5 5 5 5 5 b . 
+c d d b 5 5 d c 5 5 5 5 5 5 b . 
+c b b d 5 d c d 5 5 5 5 5 5 b . 
+. b 5 5 b c d d 5 5 5 5 5 d b . 
+b b c c c d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"C5`lw~GLU(;:qd5n::q@"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="!DkZ)*,wla%mE_)nN0S@"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="particlesStartScreenAnimation" id="B1P(FrCE}IN8:9?5}E[o"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="effect">effects.blizzard</field><value name="duration"><shadow type="timePicker" id="++b.Iq@8^W^e*WV.x]uq"><field name="ms">500</field></shadow></value></block></next></block></statement></block></xml>
